@@ -1,0 +1,294 @@
+/*
+Theme Name: Paiu Resume 
+Theme URI: http://www.it-academy.biz/
+Author: Paiu Alexandru
+Author URI: http://www.it-academy.biz/
+Description: Try to bild your own resume.
+Text Domain: it-academy
+Version: 1.0.0
+License: GNU General Public License v2 or later
+*/
+body{
+   background:hsla(0,0%,0%,.30); 
+}
+.wrap{
+    
+    width: 1100px;
+    height: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.thumbnail{
+    text-align: center;
+    max-width: 1100px;
+    height: auto;
+    
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    text-transform: uppercase;
+    margin: 0.4em 0;
+}
+h1 { 
+    margin-top:17px;
+    font-size: 36px;
+}
+h2 { 
+    margin-top:15px;
+    font-size: 30px;
+}
+h3 { 
+    margin-top:15px;
+    font-size: 26px;
+}
+h4 { 
+    margin-top:11px;
+    font-size: 20px;
+}
+h5 { 
+    margin-top:10px;
+    font-size: 18px;
+}
+h6 { font-size: 16px;}
+p { margin: 0.3em 0;}
+img {
+    vertical-align: bottom;
+    
+}
+a, a:link, a:visited {
+    color: #990b16;
+    text-decoration: none;
+}
+a:hover {
+    color: #F90;
+  
+  
+}
+a:active {
+    color: #777;
+}
+.site-header {
+    text-align: center;
+    background: #EEE;
+    padding: 20px;
+    border-bottom: 3px solid #990b16;
+}
+.site-nav {
+    text-align: center;
+    background:hsla(0,0%,0%,0.15);
+}
+.site-nav ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.site-nav ul li {
+    display: inline-block;
+}
+.site-nav ul li a {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+}
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+    color:black;
+    text-decoration: none;
+}
+.site-nav ul li a:hover {
+    background: rgba(0,0,0,0.4);
+    color: #F90;
+    background-color: #990b16;;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+}
+.site-nav ul li a:active {
+    color: #AAA;
+    background: rgba(0,0,0,0.6);
+}
+.central {
+    padding: 40px 20px;
+}
+.site-footer {
+    background: #444;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+    border-top: 3px solid #990b16;
+}
+.display_widgets{
+    
+    padding: 20px;
+    margin-top:15px;
+    border-radius: 5px;
+    border-top: 2px solid #990b16;
+    text-align: left;
+    list-style-type: none;
+    background-image: linear-gradient(to right, rgba(255,0,0,0),hsla(0,0%,54%,1.00));
+}
+
+.display_widgets li{
+    list-style-type: none;
+}
+.display_widgets li a{ 
+    color: #990b16;
+}
+.display_widgets li a:hover{ 
+    color:hsla(236,100%,21%,1.00);
+}
+
+.posts-content{
+    
+    padding: 20px;
+    margin-top:15px;
+    border-radius: 5px;
+    border-top: 2px solid #990b16;
+    text-align: left;
+    background-color: hsla(0,0%,94%,1.00);
+}
+.entry_header{
+    
+    color: hsla(0,0%,0%,1.00);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    border-top: 2px solid #990b16;
+    text-align: left;
+    background-color: hsla(56,62%,29%,0.18);
+    
+}
+.entry_header a {
+    
+    color: hsla(0,0%,0%,1.00);
+      
+}
+.entry_header a:hover {
+    
+    color: #990b16;
+      
+}
+ .post_poin{
+     
+    height: 25px;
+    width:5px;
+    margin-top: 30px;
+    background-color: #990b16;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.32);
+    padding: 12px 16px;
+}
+
+.entry-title{
+    
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.entry-meta{
+    
+    text-align: right;
+    color: hsla(0,0%,0%,1.00);
+}
+
+.page_content{
+    
+    padding: 20px;
+    margin-top:15px;
+    border-radius: 5px;
+    border-top: 2px solid #990b16;
+    background-color: hsla(0,0%,94%,1.00);
+}
+.commentlist{
+    
+    padding: 25px;
+}
+.commentlist li{
+    
+    list-style-type: none;
+    background-color: hsla(0,0%,94%,1.00);
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #990b16;
+    border-radius: 10px;
+}
+.comment-body{
+    padding:10px;
+}
+.comment-body .reply{
+    
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    border: 2px solid #990b16;
+}
+
+.comment-body p{
+    position: relative;
+    align-content: center;
+    
+    padding: 10px;
+    margin: 15px 35px 15px 35px;
+    text-align: left;
+    background-color: hsla(0,0%,86%,1.00);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.comment-body .reply a{
+    
+    text-align: center;
+}
+.comment-body .reply:hover {
+    
+    color: #F90;
+    background-color: #990b16;;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+article{
+    margin-bottom: 35px;
+}
+
+.comment-respond{
+    text-align: center;
+}
+.comment-respond label{
+    display: block;
+}
+
+.site-nav-footer {
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(to right, #990b16, rgba(255,0,0,0), #990b16);
+}
+.site-nav-footer ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.site-nav-footer ul li {
+    display: inline-block;
+}
+
+.site-nav-footer ul li a {
+    
+    padding: 15px;
+    font-weight: bold;
+    display: block;
+}
+.site-nav-footer ul li a:link,
+.site-nav-footer ul li a:visited {
+    color:black;
+    text-decoration: none;
+}
+.site-nav-footer ul li a:hover {
+    background: rgba(0,0,0,0.4);
+    color: #F90;
+    background-color: #990b16;;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
